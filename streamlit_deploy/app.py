@@ -146,9 +146,9 @@ if st.button("🚀 Run Ranking & Generate CSV"):
         # Download Button
         csv_data = results_df.to_csv(index=False).encode('utf-8')
         st.download_button(
-            label="📥 Download submission.csv",
+            label="📥 Download O(1) Squad.csv",
             data=csv_data,
-            file_name="submission.csv",
+            file_name="O(1) Squad.csv",
             mime="text/csv"
         )
         st.success("Ranking pipeline successfully executed!")

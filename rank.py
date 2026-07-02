@@ -144,7 +144,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--out", 
         type=str, 
-        default="./submission.csv", 
+        default="./O(1) Squad.csv", 
         help="Path to save the output ranking CSV"
     )
     args = parser.parse_args()

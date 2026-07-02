@@ -45,9 +45,9 @@ pip install -r requirements.txt
 
 ## 🏃 Running the Ranker
 
-To run the ranking pipeline end-to-end and generate the output `submission.csv`, execute:
+To run the ranking pipeline end-to-end and generate the output `O(1) Squad.csv`, execute:
 ```bash
-python rank.py --candidates ./candidates.jsonl --out ./submission.csv
+python rank.py --candidates ./candidates.jsonl --out "O(1) Squad.csv"
 ```
 
 > [!NOTE]
@@ -61,7 +61,7 @@ python rank.py --candidates ./candidates.jsonl --out ./submission.csv
 
 To validate your generated CSV file against the official challenge validation rules, run:
 ```bash
-python validate_submission.py submission.csv
+python validate_submission.py "O(1) Squad.csv"
 ```
 This script validates:
 1. Exact row count (header + 100 data rows).

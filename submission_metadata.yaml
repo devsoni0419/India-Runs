@@ -1,22 +1,25 @@
 # Redrob Hackathon — Submission Metadata
 # The fields here match the submission specifications.
 
-team_name: "Redrob Rankers"
+team_name: "O(1) Squad"
 
 primary_contact:
-  name: "Senior AI/ML Engineer"
-  email: "candidate@example.com"
-  phone: "+91-9999999999"
+  name: "Dev Soni"
+  email: "devsoni0419@gmail.com"
+  phone: "+91-9465692524"
 
 team_members:
+  - name: "Dev Soni"
+    email: "devsoni0419@gmail.com"
+    role: "Lead ML Engineer"
   - name: "Recruitment AI Specialist"
-    email: "candidate@example.com"
+    email: "rishibisht14862@gmail.com"
     role: "ML Engineer"
 
 github_repo: "https://github.com/devsoni0419/India-Runs"
-sandbox_link: "https://huggingface.co/spaces/redrob-hiring/ranker"
+sandbox_link: "https://indiarunsbyo1squad.streamlit.app/"
 
-reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+reproduce_command: 'python rank.py --candidates ./candidates.jsonl --out "O(1) Squad.csv"'
 
 compute:
   platform: "Local PC"
@@ -27,11 +30,11 @@ compute:
   uses_gpu_for_inference: false
   has_network_during_ranking: false
   pre_computation_required: true
-  pre_computation_time_minutes: 3
+  pre_computation_time_minutes: 75
 
 ai_tools_used:
   - "Gemini"
-  - "Cursor"
+  - "Antigravity"
 
 ai_usage_summary: |
   Used Gemini for code design and structural review. Precomputed and cached candidate embeddings for O(1) retrieval speeds.
