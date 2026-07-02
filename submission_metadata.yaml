@@ -11,10 +11,15 @@ primary_contact:
 team_members:
   - name: "Dev Soni"
     email: "devsoni0419@gmail.com"
+<<<<<<< HEAD
     role: "Lead ML Engineer"
   - name: "Recruitment AI Specialist"
     email: "rishibisht14862@gmail.com"
     role: "ML Engineer"
+=======
+  - name: "Rishi Bisht"
+    email: "rishibisht14862@gmail.com"
+>>>>>>> 1fcb86b85d470cd0ff7b5706e714644c5b1b1851
 
 github_repo: "https://github.com/devsoni0419/India-Runs"
 sandbox_link: "https://indiarunsbyo1squad.streamlit.app/"
