@@ -72,18 +72,18 @@ This script validates:
 
 ---
 
-## 🛡️ Sandbox Local Application
+## 🛡️ Sandbox Application & Live Demo
 
-To satisfy the **reproducibility requirement**, we provide a self-contained Streamlit application that can run locally. It allows running the ranking pipeline end-to-end on a small sample of candidates (or using the pre-loaded 100-candidate local dataset).
+To satisfy the **reproducibility requirement**, we provide a self-contained Streamlit application.
 
-### Running the Sandbox:
+*   **Live Sandbox Demo**: [https://indiarunsbyo1squad.streamlit.app/](https://indiarunsbyo1squad.streamlit.app/)
+*   **Deployment Assets**: Located in [streamlit_deploy/](file:///c:/Users/devso/recruiter%20india%20run/streamlit_deploy)
+
+### Running the Sandbox Locally:
 1. Ensure all dependencies from `requirements.txt` are installed.
 2. Launch the Streamlit server:
    ```bash
    streamlit run app.py
    ```
 3. Open `http://localhost:8501` in your browser.
-4. Select **Use Pre-loaded Local Sample** or upload a custom candidate subset (under 200MB) to run and download a validated rankings CSV.
-
-
-#
+4. The dashboard runs automatically on the pre-loaded 100-candidate local dataset (`sample_candidates.jsonl`) to evaluate and let you download the ranked CSV.
