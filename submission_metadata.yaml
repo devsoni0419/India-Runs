@@ -13,7 +13,7 @@ team_members:
     email: "candidate@example.com"
     role: "ML Engineer"
 
-github_repo: "https://github.com/redrob-hiring/ranker-india"
+github_repo: "https://github.com/devsoni0419/India-Runs"
 sandbox_link: "https://huggingface.co/spaces/redrob-hiring/ranker"
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
